@@ -12,7 +12,7 @@ $database = new medoo([
 	]);
 
 	
-$status = $database->query("insert into Salesforce.contact (accountNumber, name, phone) values('".$_POST['advCompName']."','".$_POST['advFname']."','".$_POST['advLname']."','".$_POST['phone']."')");
+$status = $database->query("insert into account (accountNumber, name, phone) values('".$_POST['advCompName']."','".$_POST['advFname']."','".$_POST['advLname']."','".$_POST['phone']."')");
 
 if($database->error()[2]) {
 	echo $database->error()[2];
