@@ -12,7 +12,7 @@ $database = new medoo([
 	]);
 
 	
-$status = $database->query("insert into salesforce.Analysis__c (accountNumber, name, phone) values('".$_POST['advCompName']."','".$_POST['advFname']."','".$_POST['advLname']."','".$_POST['phone']."')");
+$status = $database->query("insert into salesforce.onboardformmodel__c (accountNumber, name, phone) values('".$_POST['advCompName']."','".$_POST['advFname']."','".$_POST['advLname']."','".$_POST['phone']."')");
 
 if($database->error()[2]) {
 	echo $database->error()[2];
