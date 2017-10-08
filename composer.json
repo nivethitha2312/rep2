@@ -1,10 +1,10 @@
 {
-    "name": "godigital/onboardform",
-    "description": "OnBoardFormModel",
+    "name": "Account",
+    "description": "Account",
     "authors": [
         {
-            "name": "goditial",
-            "email": "test@gmail.com"
+            "name": "Account",
+            "email": "Account"
         }
     ],
     "require": {}
