@@ -1,10 +1,10 @@
 {
-    "name": "Account",
-    "description": "Account",
+    "name": "rep2/onboardform",
+    "description": "OnBoardFormModel",
     "authors": [
         {
-            "name": "Account",
-            "email": "Account"
+            "name": "goditial",
+            "email": "nivethitha2312@gmail.com"
         }
     ],
     "require": {}
