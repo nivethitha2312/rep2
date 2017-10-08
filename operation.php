@@ -4,10 +4,10 @@ require 'vendor/medoo.php';
 
 $database = new medoo([
 	'database_type' => 'pgsql',
-	'database_name' => 'dfukpgv609vivf',
-	'server' => 'ec2-54-235-208-3.compute-1.amazonaws.com',
-	'username' => 'fmlyiaxjnqktvd',
-	'password' => 'T4MRGogtVOCXHTS9UpEXUHuPrR',
+	'database_name' => 'd2vn7547subbh8',
+	'server' => 'ec2-54-221-221-153.compute-1.amazonaws.com',
+	'username' => 'bjrmqvfqontxgk',
+	'password' => '7e67552bb2c70f0a4ab752a6ef9764efbf286390604af0439a898758eef80c9a',
 	'charset' => 'utf8',
 	]);
 
