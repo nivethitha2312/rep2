@@ -11,7 +11,7 @@ $database = new medoo([
 	'charset' => 'utf8',
 	]);
 
-$status = $database->query("insert into salesforce.account (accountNumber, name, phone) values('".$_POST['advCompName']."','".$_POST['advFname']."','".$_POST['advLname']."','".$_POST['phone']."')");
+$status = $database->query("insert into salesforceaccount.account (accountNumber, name, phone) values('".$_POST['advCompName']."','".$_POST['advFname']."','".$_POST['advLname']."','".$_POST['phone']."')");
 
 if($database->error()[2]) {
 	echo $database->error()[2];
